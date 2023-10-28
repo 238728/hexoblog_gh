@@ -33,17 +33,6 @@
     
     
     <entry>
-      <title>OI专区</title>
-      <link href="/hexoblog_gh/coding/index.html"/>
-      <url>/hexoblog_gh/coding/index.html</url>
-      
-        <content type="html"><![CDATA[<p>ddd.</p>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>关于我</title>
       <link href="/hexoblog_gh/about/index.html"/>
       <url>/hexoblog_gh/about/index.html</url>
@@ -93,6 +82,17 @@
       <url>/hexoblog_gh/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>OI专区</title>
+      <link href="/hexoblog_gh/coding/index.html"/>
+      <url>/hexoblog_gh/coding/index.html</url>
+      
+        <content type="html"><![CDATA[<p>ddd.</p>]]></content>
       
     </entry>
     
