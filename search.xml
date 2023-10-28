@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>博客加密测试</title>
+      <link href="/hexoblog_gh/2023/10/28/blog-encrypted/"/>
+      <url>/hexoblog_gh/2023/10/28/blog-encrypted/</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码不正确，请重新输入。" data-whm="文章校验失败，您还是可以查看文章内容。">  <script id="hbeData" type="hbeData" data-hmacdigest="f8ac366192a995af04e8c752eb30ed447cd109f069fd98e37e9fad1e9361141c">179694c1ba1ee59eed415f7eee5a8dd92afe89207df6f27e079a8feaca8b6823bb7d079d712d9ac44500fc4ebd586bb51946ffb00c6138b4202a72eebcc9d28b</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-xray">      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">需要密码才能查看文章内容。</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/hexoblog_gh/lib/hbe.js"></script><link href="/hexoblog_gh/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Latex 测试</title>
       <link href="/hexoblog_gh/2023/10/22/latex-test/"/>
       <url>/hexoblog_gh/2023/10/22/latex-test/</url>
@@ -55,6 +68,17 @@
     
     
     <entry>
+      <title>OI专区</title>
+      <link href="/hexoblog_gh/coding/index.html"/>
+      <url>/hexoblog_gh/coding/index.html</url>
+      
+        <content type="html"><![CDATA[<p>ddd.</p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>模板区</title>
       <link href="/hexoblog_gh/coding/templates.html"/>
       <url>/hexoblog_gh/coding/templates.html</url>
@@ -82,17 +106,6 @@
       <url>/hexoblog_gh/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>OI专区</title>
-      <link href="/hexoblog_gh/coding/index.html"/>
-      <url>/hexoblog_gh/coding/index.html</url>
-      
-        <content type="html"><![CDATA[<p>ddd.</p>]]></content>
       
     </entry>
     
