@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
-  <link rel="canonical" href="http://example.com/2023/11/26/hello-world - 副本 - 副本/"/>
+  <link rel="canonical" href="https://238728.github.io/hexoblog_gh/2023/11/26/hello-world - 副本 - 副本/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://unpkg.com'>
@@ -27,7 +27,7 @@
   <!-- Custom Files headBegin end-->
   <!-- front-matter head_begin begin -->
   <!-- front-matter head_begin end -->
-  <link rel="preload" href="/hexoblog_gh/css/style.css" as="style">
+  <link rel="preload" href="/css/style.css" as="style">
   <link rel="preload" href="https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/VarelaRound/VarelaRound-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
   <!-- feed -->
@@ -38,7 +38,7 @@
   
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://example.com/2023/11/26/hello-world%20-%20%E5%89%AF%E6%9C%AC%20-%20%E5%89%AF%E6%9C%AC/index.html">
+<meta property="og:url" content="https://238728.github.io/hexoblog_gh/2023/11/26/hello-world%20-%20%E5%89%AF%E6%9C%AC%20-%20%E5%89%AF%E6%9C%AC/index.html">
 <meta property="og:site_name" content="uupeter的小站">
 <meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.  Quic">
 <meta property="og:locale" content="zh_CN">
@@ -280,103 +280,6 @@ button {
   position: relative;
   overflow: hidden;
   margin-bottom: -100px;
-}
-.cover-wrapper .cover-bg {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-}
-.cover-wrapper .cover-bg.lazyload:not(.loaded) {
-  opacity: 0;
-  -webkit-opacity: 0;
-  -moz-opacity: 0;
-}
-.cover-wrapper .cover-bg.lazyload.loaded {
-  animation-delay: 0s;
-  animation-duration: 0.5s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-out;
-  animation-name: fadeIn;
-}
-@-moz-keyframes fadeIn {
-  0% {
-    opacity: 0;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: blur(12px);
-    transform: scale(1.02);
-    -webkit-transform: scale(1.02);
-    -khtml-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    -o-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-  }
-  100% {
-    opacity: 1;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-  }
-}
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: blur(12px);
-    transform: scale(1.02);
-    -webkit-transform: scale(1.02);
-    -khtml-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    -o-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-  }
-  100% {
-    opacity: 1;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-  }
-}
-@-o-keyframes fadeIn {
-  0% {
-    opacity: 0;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: blur(12px);
-    transform: scale(1.02);
-    -webkit-transform: scale(1.02);
-    -khtml-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    -o-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-  }
-  100% {
-    opacity: 1;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-  }
-}
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: blur(12px);
-    transform: scale(1.02);
-    -webkit-transform: scale(1.02);
-    -khtml-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    -o-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-  }
-  100% {
-    opacity: 1;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-  }
 }
 .cover-wrapper .cover-body {
   z-index: 1;
@@ -726,6 +629,71 @@ button {
   -webkit-opacity: 1;
   -moz-opacity: 1;
   border-bottom: 2px solid var(--color-site-inner);
+}
+.cover-wrapper #parallax-window {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+.parallax-mirror {
+  animation-delay: 0s;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  animation-name: fadeIn;
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    filter: blur(12px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    filter: blur(12px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    filter: blur(12px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    filter: blur(12px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+  }
 }
 @font-face {
   font-family: 'Varela Round';
@@ -1558,8 +1526,8 @@ ul.list-v >li>a:hover {
 }
 
   </style>
-  <link rel="stylesheet" href="/hexoblog_gh/css/style.css" media="print" onload="this.media='all';this.onload=null">
-  <noscript><link rel="stylesheet" href="/hexoblog_gh/css/style.css"></noscript>
+  <link rel="stylesheet" href="/css/style.css" media="print" onload="this.media='all';this.onload=null">
+  <noscript><link rel="stylesheet" href="/css/style.css"></noscript>
   
 <script>
 if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode))
@@ -1631,9 +1599,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   volantis.GLOBAL_CONFIG ={
     debug: false,
-    cdn: {"js":{"app":"/hexoblog_gh/js/app.js","parallax":"/hexoblog_gh/js/plugins/parallax.js","rightMenu":"/hexoblog_gh/js/plugins/rightMenu.js","rightMenus":"/hexoblog_gh/js/plugins/rightMenus.js","sites":"/hexoblog_gh/js/plugins/tags/sites.js","friends":"/hexoblog_gh/js/plugins/tags/friends.js","contributors":"/hexoblog_gh/js/plugins/tags/contributors.js","search":"/hexoblog_gh/js/search/hexo.js"},"css":{"style":"/hexoblog_gh/css/style.css"}},
+    cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1700993090731),
+    lastupdate: new Date(1701000768209),
     sidebar: {
       for_page: ["blogger","category","tagcloud","lastupdate","webinfo"],
       for_post: ["toc"],
@@ -1649,7 +1617,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       }
     },
     plugins: {
-      message: {"enable":true,"css":"https://unpkg.com/volantis-static@0.0.1654736714924/libs/izitoast/dist/css/iziToast.min.css","js":"https://unpkg.com/volantis-static@0.0.1654736714924/libs/izitoast/dist/js/iziToast.min.js","icon":{"default":"fa-light fa-info-circle light-blue","quection":"fa-light fa-question-circle light-blue"},"time":{"default":5000,"quection":20000},"position":"topRight","transitionIn":"bounceInLeft","transitionOut":"fadeOutRight","titleColor":"var(--color-text)","messageColor":"var(--color-text)","backgroundColor":"var(--color-card)","zindex":2147483647,"copyright":{"enable":true,"title":"知识共享许可协议","message":"请遵守 CC BY-NC-SA 4.0 协议。","icon":"far fa-copyright light-blue"},"aplayer":{"enable":true,"play":"fa-light fa-play","pause":"fa-light fa-pause"},"rightmenu":{"enable":true,"notice":true}},
+      message: {"enable":true,"css":"https://unpkg.com/volantis-static@0.0.1654736714924/libs/izitoast/dist/css/iziToast.min.css","js":"https://unpkg.com/volantis-static@0.0.1654736714924/libs/izitoast/dist/js/iziToast.min.js","icon":{"default":"fa-light fa-info-circle light-blue","quection":"fa-light fa-question-circle light-blue"},"time":{"default":5000,"quection":20000},"position":"topRight","transitionIn":"bounceInLeft","transitionOut":"fadeOutRight","titleColor":"var(--color-text)","messageColor":"var(--color-text)","backgroundColor":"var(--color-card)","zindex":2147483647,"copyright":{"enable":false,"title":"知识共享许可协议","message":"请遵守 CC BY-NC-SA 4.0 协议。","icon":"far fa-copyright light-blue"},"aplayer":{"enable":true,"play":"fa-light fa-play","pause":"fa-light fa-pause"},"rightmenu":{"enable":true,"notice":true}},
       fancybox: {"css":"https://unpkg.com/volantis-static@0.0.1654736714924/libs/@fancyapps/ui/dist/fancybox.css","js":"https://unpkg.com/volantis-static@0.0.1654736714924/libs/@fancyapps/ui/dist/fancybox.umd.js"},
       
       
@@ -2078,7 +2046,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 		<div class="nav-main">
       
         
-        <a class="title flat-box" target="_self" href='/hexoblog_gh/'>
+        <a class="title flat-box" target="_self" href='/'>
           
           
           
@@ -2100,7 +2068,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
                   
                   
                   >
-                  <i class='fa-light fa-newspaper blue fa-fw'></i>文章
+                  <i class='fa-light fa-newspaper light-blue fa-fw'></i>文章
                 </a>
                 
                   <ul class="list-v">
@@ -2109,13 +2077,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/hexoblog_gh/archives/" title="归档"
+                href="/archives/" title="归档"
                   
                   
                   
-                    active-action="action-hexoblog_gharchives"
+                    active-action="action-archives"
                   >
-                  <i class='fa-light fa-archive fa-fw'></i>归档
+                  <i class='fa-light fa-archive red fa-fw'></i>归档
                 </a>
                 
               </li>
@@ -2126,13 +2094,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/hexoblog_gh/categories/" title="分类"
+                href="/categories/" title="分类"
                   
                   
                   
-                    active-action="action-hexoblog_ghcategories"
+                    active-action="action-categories"
                   >
-                  <i class='fa-light fa-folder-open fa-fw'></i>分类
+                  <i class='fa-light fa-folder-open dark-blue fa-fw'></i>分类
                 </a>
                 
               </li>
@@ -2143,13 +2111,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/hexoblog_gh/tags/" title="标签"
+                href="/tags/" title="标签"
                   
                   
                   
-                    active-action="action-hexoblog_ghtags"
+                    active-action="action-tags"
                   >
-                  <i class='fa-light fa-tags blue fa-fw'></i>标签
+                  <i class='fa-light fa-tags light-blue fa-fw'></i>标签
                 </a>
                 
               </li>
@@ -2166,11 +2134,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/hexoblog_gh/" title="工具"
+                href="/" title="工具"
                   
                   
                   
-                    active-action="action-hexoblog_gh"
+                    active-action="action-home"
                   >
                   <i class='fa-light fa-tools fa-fw'></i>工具
                 </a>
@@ -2183,11 +2151,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/hexoblog_gh/about/" title="关于"
+                href="/about/" title="关于"
                   
                   
                   
-                    active-action="action-hexoblog_ghabout"
+                    active-action="action-about"
                   >
                   <i class='fa-light fa-info-circle fa-fw'></i>关于
                 </a>
@@ -2223,7 +2191,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
                   
                   
                   >
-                  <i class='fa-light fa-newspaper blue fa-fw'></i>文章
+                  <i class='fa-light fa-newspaper light-blue fa-fw'></i>文章
                 </a>
                 
                   <ul class="list-v">
@@ -2232,13 +2200,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/hexoblog_gh/archives/" title="归档"
+                href="/archives/" title="归档"
                   
                   
                   
-                    active-action="action-hexoblog_gharchives"
+                    active-action="action-archives"
                   >
-                  <i class='fa-light fa-archive fa-fw'></i>归档
+                  <i class='fa-light fa-archive red fa-fw'></i>归档
                 </a>
                 
               </li>
@@ -2249,13 +2217,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/hexoblog_gh/categories/" title="分类"
+                href="/categories/" title="分类"
                   
                   
                   
-                    active-action="action-hexoblog_ghcategories"
+                    active-action="action-categories"
                   >
-                  <i class='fa-light fa-folder-open fa-fw'></i>分类
+                  <i class='fa-light fa-folder-open dark-blue fa-fw'></i>分类
                 </a>
                 
               </li>
@@ -2266,13 +2234,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/hexoblog_gh/tags/" title="标签"
+                href="/tags/" title="标签"
                   
                   
                   
-                    active-action="action-hexoblog_ghtags"
+                    active-action="action-tags"
                   >
-                  <i class='fa-light fa-tags blue fa-fw'></i>标签
+                  <i class='fa-light fa-tags light-blue fa-fw'></i>标签
                 </a>
                 
               </li>
@@ -2289,11 +2257,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/hexoblog_gh/" title="工具"
+                href="/" title="工具"
                   
                   
                   
-                    active-action="action-hexoblog_gh"
+                    active-action="action-home"
                   >
                   <i class='fa-light fa-tools fa-fw'></i>工具
                 </a>
@@ -2306,11 +2274,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/hexoblog_gh/about/" title="关于"
+                href="/about/" title="关于"
                   
                   
                   
-                    active-action="action-hexoblog_ghabout"
+                    active-action="action-about"
                   >
                   <i class='fa-light fa-info-circle fa-fw'></i>关于
                 </a>
@@ -2338,7 +2306,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <!-- see: /layout/_partial/scripts/_ctrl/coverCtrl.ejs -->
       <div id="none" class='cover-wrapper post search' style="display: none;">
         
-  <div class='cover-bg lazyload placeholder' data-bg="https://gcore.jsdelivr.net/gh/MHG-LAB/cron@gh-pages/bing/bing.jpg"></div>
+  <div id="parallax-window"></div>
 
 <div class='cover-body'>
   <div class='top'>
@@ -2387,7 +2355,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
 <div id="l_main" class=''>
   <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
-  <link itemprop="mainEntityOfPage" href="http://example.com/2023/11/26/hello-world - 副本 - 副本/">
+  <link itemprop="mainEntityOfPage" href="https://238728.github.io/hexoblog_gh/2023/11/26/hello-world - 副本 - 副本/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="uupeter的小站">
   </span>
@@ -2482,10 +2450,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <div class="new-meta-item comments-count">
    
   
-  <a href="/hexoblog_gh/2023/11/26/hello-world%20-%20%E5%89%AF%E6%9C%AC%20-%20%E5%89%AF%E6%9C%AC/#comments">
+  <a href="/2023/11/26/hello-world%20-%20%E5%89%AF%E6%9C%AC%20-%20%E5%89%AF%E6%9C%AC/#comments">
     <i class="fa-light fa-comment-dots fa-fw"></i>
     <p>
-      <span data-path="/hexoblog_gh/2023/11/26/hello-world%20-%20%E5%89%AF%E6%9C%AC%20-%20%E5%89%AF%E6%9C%AC/" class="waline-comment-count">
+      <span data-path="/2023/11/26/hello-world%20-%20%E5%89%AF%E6%9C%AC%20-%20%E5%89%AF%E6%9C%AC/" class="waline-comment-count">
         <i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i>
       </span> 
        
@@ -2544,7 +2512,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
                 
               
                 
-                  <p>本文永久链接是：<a href="http://example.com/2023/11/26/hello-world - 副本 - 副本/">http://example.com/2023/11/26/hello-world - 副本 - 副本/</a></p>
+                  <p>本文永久链接是：<a href="https://238728.github.io/hexoblog_gh/2023/11/26/hello-world - 副本 - 副本/">https://238728.github.io/hexoblog_gh/2023/11/26/hello-world - 副本 - 副本/</a></p>
                 
               
             </blockquote>
@@ -2575,7 +2543,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
           
   
-  <div class="new-meta-item meta-tags"><a class="tag" href="/hexoblog_gh/tags/hi/" rel="nofollow"><i class="fa-light fa-hashtag fa-fw" aria-hidden="true"></i><p>hi</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/hexoblog_gh/tags/ss/" rel="nofollow"><i class="fa-light fa-hashtag fa-fw" aria-hidden="true"></i><p>ss</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/hexoblog_gh/tags/skdj/" rel="nofollow"><i class="fa-light fa-hashtag fa-fw" aria-hidden="true"></i><p>skdj</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/hexoblog_gh/tags/skjd/" rel="nofollow"><i class="fa-light fa-hashtag fa-fw" aria-hidden="true"></i><p>skjd</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/hexoblog_gh/tags/%E4%BD%A0%E5%A5%BD/" rel="nofollow"><i class="fa-light fa-hashtag fa-fw" aria-hidden="true"></i><p>你好</p></a></div>
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/hi/" rel="nofollow"><i class="fa-light fa-hashtag fa-fw" aria-hidden="true"></i><p>hi</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/ss/" rel="nofollow"><i class="fa-light fa-hashtag fa-fw" aria-hidden="true"></i><p>ss</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/skdj/" rel="nofollow"><i class="fa-light fa-hashtag fa-fw" aria-hidden="true"></i><p>skdj</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/skjd/" rel="nofollow"><i class="fa-light fa-hashtag fa-fw" aria-hidden="true"></i><p>skjd</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E4%BD%A0%E5%A5%BD/" rel="nofollow"><i class="fa-light fa-hashtag fa-fw" aria-hidden="true"></i><p>你好</p></a></div>
   <span hidden itemprop="keywords">hi ss skdj skjd 你好</span>
 
 
@@ -2589,7 +2557,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/2023/11/26/hello-world%20-%20%E5%89%AF%E6%9C%AC%20-%20%E5%89%AF%E6%9C%AC/&title=Hello World - uupeter的小站&summary="
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://238728.github.io/hexoblog_gh/2023/11/26/hello-world%20-%20%E5%89%AF%E6%9C%AC%20-%20%E5%89%AF%E6%9C%AC/&title=Hello World - uupeter的小站&summary="
           
           >
           
@@ -2601,7 +2569,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://example.com/2023/11/26/hello-world%20-%20%E5%89%AF%E6%9C%AC%20-%20%E5%89%AF%E6%9C%AC/&title=Hello World - uupeter的小站&summary="
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://238728.github.io/hexoblog_gh/2023/11/26/hello-world%20-%20%E5%89%AF%E6%9C%AC%20-%20%E5%89%AF%E6%9C%AC/&title=Hello World - uupeter的小站&summary="
           
           >
           
@@ -2613,7 +2581,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2023/11/26/hello-world%20-%20%E5%89%AF%E6%9C%AC%20-%20%E5%89%AF%E6%9C%AC/&title=Hello World - uupeter的小站&summary="
+          target="_blank" href="http://service.weibo.com/share/share.php?url=https://238728.github.io/hexoblog_gh/2023/11/26/hello-world%20-%20%E5%89%AF%E6%9C%AC%20-%20%E5%89%AF%E6%9C%AC/&title=Hello World - uupeter的小站&summary="
           
           >
           
@@ -2627,7 +2595,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <div class='hoverbox'>
           <a class='share'><img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/wechat.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/wechat.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a>
           <div class='target'>
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVgAAAFYCAAAAAAzB7ucAAAEW0lEQVR42u3aS7IbOQwEQN3/0jMHcChEFEB025HcWWHxk9SCwKvPf8aV8UEAFqwBFixYA+wK7Cccv77/x4JfPv+6wR/znO7v17yn5zn2AAsWLFiwYMGCBbsKmx54CnZqH6cXcW0fYMGCBQsWLFiwYB+BPS0Iyg3gH+tU10/3Vf0BVD3AggULFixYsGDB/h2wW43ndP20kQ4WLFiwYMGCBQv234adBpi6qNNCIN03WLBgwYIFCxYs2HfBVhvWaWBiCrT7Q+g28sGCBQsWLFiwYME+C1sd043qt/079gALFixYsGDBggW7Atsd1Qd/NYicNrKnC4FjD7BgwYIFCxYsWLArsKcH7Daebz3cqxdQXbfsBBYsWLBgwYIFC3YV9nTD5QDDIUD1IFPApz+k00IGLFiwYMGCBQsW7A5stSE8vdHbje7q+u15wIIFCxYsWLBgwa7CpkGG6gM/nS89aHoxcRAELFiwYMGCBQsW7ArsVON3KigxDdRtuJcvBCxYsGDBggULFuwK7FTDuXsBaUHSbcR3AyblygssWLBgwYIFCxbsKGy1Yb0NmjbCbxUkYMGCBQsWLFiwYN8BO7Xx7kP81kN+GvrrvGDBggULFixYsGBXYT9DowpXvaj0ImKoYkAZLFiwYMGCBQsW7A7s1kamGuCnjfbpcx3/YQAsWLBgwYIFCxbsKmw6YdqIPt5oEapauHQvEixYsGDBggULFuwzsN2Dp/C3C5HqPqoFzNd1wIIFCxYsWLBgwa7AdoMW6ee3Co7u/O1ACliwYMGCBQsWLNhV2KmG8lQwOYWozne6z+PPwYIFCxYsWLBgwb4CdqqRPBXE6AYvTgufOGACFixYsGDBggULdgW2WyikBUT1AX+7sEjXBQsWLFiwYMGCBfsM7NaBTxvS6cM/vcBuIAQsWLBgwYIFCxbsu2DfFqSoAt0qTMCCBQsWLFiwYMG+AzbdYBWuWhBMXeQnHPF+wIIFCxYsWLBgwa7AVieaCnqkBcRUkLjaeI8DG2DBggULFixYsGCvwE4FN9JgRheg+//SfX79HliwYMGCBQsWLNhHYLsN6Wrgows+dWGncGDBggULFixYsGDfAVsFix/OxYBEWsCkBUN6frBgwYIFCxYsWLDPwE4t1H3A3w5anK6bBkXAggULFixYsGDBPgNbBUoLghTq9PPbARSwYMGCBQsWLFiw74JNR/eBvVUoxA/+6vxgwYIFCxYsWLBgV2C7D+RfG0svZOp7U/DlAgEsWLBgwYIFCxbsCmwVpPqgrx4sLRTGoboFAliwYMGCBQsWLNgV2LQgqAY30oKjeiGn61UDGl8/BwsWLFiwYMGCBftXwN5qNKeFR7dwaRcgYMGCBQsWLFiwYP8J2Cp4WohMrdsuVMCCBQsWLFiwYME+Apsu2A0STwVFugVMug5YsGDBggULFizYZ2C7gYfqw74bCOmCTAemwYIFCxYsWLBgwe7CGrMDLFiwBliwYA2wV8f/UM5TZ4+DGi4AAAAASUVORK5CYII=">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXgAAAF4CAAAAAB79r16AAAFKElEQVR42u3cQW4bMRAEQP3/08o9gCBOT1Oy4eLNsbTLLe6l0RM/ntZX1gMBePAWePAWePBWAf4RrpcXfvP79HPT+7/63P//Pn2erRd48ODBgwcPHjx48E344wCw3MgpVPr56e9PD6jmBR48ePDgwYMHDx78BfjTB9gGnTQ4TffVAmt5gQcPHjx48ODBgwf/G+DTQmIK3ipKpsEOPHjw4MGDBw8ePPjfCJ8OBN0aHJoe1DQIggcPHjx48ODBgwf/E+FbBcGtB9kWMGmR8uMmycCDBw8ePHjw4MGDLwSSv/Zz7AUePHjw4MGDBw8efAG+vU6DzHYgKi1i0uBV8wEPHjx48ODBgwcPvgC/DRSnBUMbqD3glBYe42IIPHjw4MGDBw8ePPgi/BY8hZpe5/RAt4NQ2+d/+TN48ODBgwcPHjx48AX46QWmxcH0ummwahcup887fTHAgwcPHjx48ODBg2/ApwM/26JhOhB1/GAhWBq4ag0UePDgwYMHDx48ePAD+O2DpcXItvDYDkDFA0nbFws8ePDgwYMHDx48+AJ8a3CpVZikB/NcrnSgaXwd8ODBgwcPHjx48OAL8K0BojSwbAuGtGjZDlTFBQ548ODBgwcPHjx48AX46UDPFmJbRKTArYNfB0Xw4MGDBw8ePHjw4IvwaSGRDiKl95nuJ30R2oNV4MGDBw8ePHjw4ME34VvBYzoYlA4otQaa2vsADx48ePDgwYMHD/6T8NsBpO3Gbh98axCp9SKBBw8ePHjw4MGDB9+Abw8SbQGepbUNSNOi4/jgwIMHDx48ePDgwYMvwLcGhtpFyXQfpyCn103v/zZwgQcPHjx48ODBgwdfgN8WC2mhkR7otjhpPcf0OcGDBw8ePHjw4MGDvwGfHsTpxrbBJr1/Gz4NfODBgwcPHjx48ODBN+FPIaYHlG6sdf90X6ffjwMkePDgwYMHDx48ePBF+G1R8ekBou39bl0HPHjw4MGDBw8ePPhPwE8DQ1ocTDc4/X6rsJkGuHGwAw8ePHjw4MGDBw++CJ8ONE0LiVZxMd3/dN/p/sGDBw8ePHjw4MGD/yT8bYgWWBq4UvjtwR8XIeDBgwcPHjx48ODBD+DbgzwpUAqZDkSlBVD6ooIHDx48ePDgwYMH34Tf3igtVNKgdnrw6T7TIBYnV/DgwYMHDx48ePDgC/C3A1O64dZ10hcoPaDjSTLw4MGDBw8ePHjw4AP400H7NDClA0bT/wiwLWSm+xr7gAcPHjx48ODBgwd/Ab52g1LBcQqeDiyl35/uCzx48ODBgwcPHjz4JvwWeAudXn86YJTuu/V58ODBgwcPHjx48OCb8NsBnvT76cHdKjbS/Y8DH3jw4MGDBw8ePHjwRfg0oKSFwPQgpgEs3X8ryNUbKPDgwYMHDx48ePDggz/4OQVJg9fj0krht/cBDx48ePDgwYMHD/4G/Halg0C3ior2dbbfAw8ePHjw4MGDBw/+Bnw7kGwffDwgdKkomd7/OGCCBw8ePHjw4MGDB1+EbwWmU4Bp8NoOVJ1+Lz3AOECBBw8ePHjw4MGDB1+ATwPMNKhMgdpFynRg6/okGXjw4MGDBw8ePHjwH4Rvf6890NQOftsABx48ePDgwYMHDx78T4BPi450gCmFT1+U6ee+XoSABw8ePHjw4MGD/5PwaRB5fHlNwW4NQL29Dnjw4MGDBw8ePHjwRfhPPeg0uJ0GuPZg0xr4NECBBw8ePHjw4MGDB/+FP/hpDQsYBODBW+DBW+DBW/n6B9MYJjdboGALAAAAAElFTkSuQmCC">
           </div>
         </div>
       
@@ -2654,13 +2622,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     <div class="prev-next">
       
-        <a class='prev' href='/hexoblog_gh/2023/11/26/hello-world%20-%20%E5%89%AF%E6%9C%AC/'>
-          <p class='title'><i class="fa-solid fa-chevron-left" aria-hidden="true"></i>Hello World</p>
-          <p class='content'>Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any ...</p>
-        </a>
       
-      
-        <a class='next' href='/hexoblog_gh/2023/11/26/hello-world/'>
+        <a class='next' href='/2023/11/26/hello-world%20-%20%E5%89%AF%E6%9C%AC/'>
           <p class='title'>Hello World<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
           <p class='content'>Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any ...</p>
         </a>
@@ -2678,7 +2641,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   <article class="post white-box shadow floatable blur" id="comments">
     <span hidden>
-      <meta itemprop="discussionUrl" content="/hexoblog_gh/2023/11/26/hello-world%20-%20%E5%89%AF%E6%9C%AC%20-%20%E5%89%AF%E6%9C%AC/index.html#comments">
+      <meta itemprop="discussionUrl" content="/2023/11/26/hello-world%20-%20%E5%89%AF%E6%9C%AC%20-%20%E5%89%AF%E6%9C%AC/index.html#comments">
     </span>
     <p ct><i class='fa-light fa-comments'></i> 评论</p>
     
@@ -2882,6 +2845,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   volantis.css("https://gcore.jsdelivr.net/gh/inkss/fontawesome@6.0.0/css/all.min.css");
   
   
+  volantis.css("https://unpkg.com/volantis-static@0.0.1654736714924/libs/font-awesome-animation/font-awesome-animation.min.css");
+  
   
 </script>
 
@@ -2890,7 +2855,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 <!-- internal -->
 
-<script src="/hexoblog_gh/hexoblog_gh/js/app.js"></script>
+<script src="/js/app.js"></script>
 
 
 
@@ -3137,7 +3102,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   </ul>
 </div>
-<script src="/hexoblog_gh/js/plugins/rightMenus.js"></script>
+<script src="/js/plugins/rightMenus.js"></script>
 <script>
   const RightMenusFunction = {};
   
@@ -3258,19 +3223,19 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       const sites_api = document.getElementById('sites-api');
       if (sites_api != undefined && typeof SitesJS === 'undefined') {
-        volantis.js("/hexoblog_gh/js/plugins/tags/sites.js")
+        volantis.js("/js/plugins/tags/sites.js")
       }
     
     
       const friends_api = document.getElementById('friends-api');
       if (friends_api != undefined && typeof FriendsJS === 'undefined') {
-        volantis.js("/hexoblog_gh/js/plugins/tags/friends.js")
+        volantis.js("/js/plugins/tags/friends.js")
       }
     
     
       const contributors_api = document.getElementById('contributors-api');
       if (contributors_api != undefined && typeof ContributorsJS === 'undefined') {
-        volantis.js("/hexoblog_gh/js/plugins/tags/contributors.js")
+        volantis.js("/js/plugins/tags/contributors.js")
       }
     
   };
@@ -3327,6 +3292,33 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 
+
+
+   <script type="text/javascript">
+  function pjax_scrollrebeal() {
+    ScrollReveal().reveal("#l_main .reveal", {
+      distance: "32px",
+      duration: "800",
+      interval: "20",
+      scale: "1",
+      easing: "ease-out",
+    });
+  }
+  function init_scrollrebeal() {
+    if (typeof ScrollReveal == "undefined") {
+      volantis.requestAnimationFrame(init_scrollrebeal);
+    } else {
+      pjax_scrollrebeal();
+    }
+  }
+  volantis.js("https://unpkg.com/volantis-static@0.0.1654736714924/libs/scrollreveal/dist/scrollreveal.min.js");
+  document.addEventListener("DOMContentLoaded", init_scrollrebeal);
+  volantis.pjax.push(
+    pjax_scrollrebeal,
+    "pjax_scrollrebeal",
+    (setRequestAnimationFrame = false)
+  );
+</script>
 
 
 
@@ -3390,14 +3382,14 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <!-- optional -->
 
   <script>
-  const SearchServiceDataPathRoot = ("/hexoblog_gh/" || "/").endsWith("/") ?
-    "/hexoblog_gh/" || "/" :
-    "/hexoblog_gh//" || "/";
+  const SearchServiceDataPathRoot = ("/" || "/").endsWith("/") ?
+    "/" || "/" :
+    "//" || "/";
   const SearchServiceDataPath = SearchServiceDataPathRoot + "content.json";
 
   function loadSearchScript() {
     // see: layout/_partial/scripts/_ctrl/cdnCtrl.ejs
-    return volantis.js("/hexoblog_gh/js/search/hexo.js");
+    return volantis.js("/js/search/hexo.js");
   }
 
   function loadSearchService() {
@@ -3469,6 +3461,61 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 
+
+
+  <script>
+  let imgs = ["https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/016.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/056.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/038.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/046.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/054.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/002.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/003.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/042.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/012.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/039.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/035.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/004.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/0","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/052.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/006.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/051.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/001.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/019.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/005.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/033.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/034.webp"];
+  let index = 0;
+  let IntervalParallax = null;
+
+  function parallax(){
+    let ParallaxWindow = document.querySelector("#parallax-window");
+    
+    Parallax.window = ParallaxWindow;
+    Parallax.options.fade = 1500;
+    Parallax.cache = 1;
+    next_parallax();
+    Parallax.init();
+    if (imgs.length>1) {
+      IntervalParallax = setInterval(function () {
+        next_parallax();
+      }, '10000');
+    }
+  }
+
+  function next_parallax() {
+    if (typeof Parallax == "undefined") {
+      return
+    }
+    
+      if (!document.querySelector("#full")&&!document.querySelector("#half")) {
+        return
+      }
+    
+    if (imgs.length>=1) {
+      Parallax.options.src = imgs[index % imgs.length];
+      Parallax.start();
+      index++;
+      if (Parallax.cache) {
+        fetch(imgs[index % imgs.length] +"?t=" + new Date().getTime());
+        if (index == imgs.length) {
+          Parallax.cache = 0;
+        }
+      }
+    }
+  }
+  var runningOnBrowser = typeof window !== "undefined";
+  var isBot = runningOnBrowser && !("onscroll" in window) || typeof navigator !== "undefined" && /(gle|ing|ro|msn)bot|crawl|spider|yand|duckgo/i.test(navigator.userAgent);
+  if (!isBot) {
+    volantis.js('/js/plugins/parallax.js').then(()=>{
+      parallax()
+    })
+    volantis.pjax.send(()=>{
+      clearInterval(IntervalParallax)
+    },"clearIntervalParallax");
+    volantis.pjax.push(parallax);
+  }
+</script>
 
 
 
@@ -3646,7 +3693,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"uupeter的小站","url":"http://example.com/hexoblog_gh/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"uupeter","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/hexoblog_gh/","sameAs":["https://github.com/volantis-x"],"description":"这里是uupeter的小站，欢迎光临！"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/hexoblog_gh/","name":"uupeter的小站"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/hexoblog_gh/2023/11/26/hello-world - 副本 - 副本/","name":"Hello World"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"uupeter的小站","url":"http://example.com/hexoblog_gh/","keywords":null,"description":"这里是uupeter的小站，欢迎光临！","author":{"@type":"Person","name":"uupeter","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/hexoblog_gh/","description":"这里是uupeter的小站，欢迎光临！"},"publisher":{"@type":"Organization","name":"uupeter的小站","url":"http://example.com/hexoblog_gh/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Hello World","description":"这里是uupeter的小站，欢迎光临！","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2023/11/26/hello-world%20-%20%E5%89%AF%E6%9C%AC%20-%20%E5%89%AF%E6%9C%AC/"},"author":{"@type":"Person","name":"uupeter","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/hexoblog_gh/"},"publisher":{"@type":"Organization","name":"uupeter的小站","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://example.com/2023/11/26/hello-world%20-%20%E5%89%AF%E6%9C%AC%20-%20%E5%89%AF%E6%9C%AC/","wordCount":0,"datePublished":"2023-11-26T02:16:59.000Z","dateModified":"2023-11-26T03:14:59.799Z","keywords":"hi,ss,skdj,skjd,你好","image":{"@type":"ImageObject","url":"https://static.vecteezy.com/system/resources/previews/000/195/793/original/colorful-round-shapes-abstract-background-vector.jpg","width":1024,"height":768}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"uupeter的小站","url":"https://238728.github.io/hexoblog_gh/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"uupeter","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://238728.github.io/hexoblog_gh/","sameAs":["https://github.com/volantis-x"],"description":"这里是uupeter的小站，欢迎光临！"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://238728.github.io/hexoblog_gh/","name":"uupeter的小站"}},{"@type":"ListItem","position":3,"item":{"@id":"https://238728.github.io/hexoblog_gh/2023/11/26/hello-world - 副本 - 副本/","name":"Hello World"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"uupeter的小站","url":"https://238728.github.io/hexoblog_gh/","keywords":null,"description":"这里是uupeter的小站，欢迎光临！","author":{"@type":"Person","name":"uupeter","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://238728.github.io/hexoblog_gh/","description":"这里是uupeter的小站，欢迎光临！"},"publisher":{"@type":"Organization","name":"uupeter的小站","url":"https://238728.github.io/hexoblog_gh/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://238728.github.io/hexoblog_gh?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Hello World","description":"这里是uupeter的小站，欢迎光临！","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://238728.github.io/hexoblog_gh/2023/11/26/hello-world%20-%20%E5%89%AF%E6%9C%AC%20-%20%E5%89%AF%E6%9C%AC/"},"author":{"@type":"Person","name":"uupeter","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://238728.github.io/hexoblog_gh/"},"publisher":{"@type":"Organization","name":"uupeter的小站","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://238728.github.io/hexoblog_gh/2023/11/26/hello-world%20-%20%E5%89%AF%E6%9C%AC%20-%20%E5%89%AF%E6%9C%AC/","wordCount":0,"datePublished":"2023-11-26T02:16:59.000Z","dateModified":"2023-11-26T03:14:59.799Z","keywords":"hi,ss,skdj,skjd,你好","image":{"@type":"ImageObject","url":"https://static.vecteezy.com/system/resources/previews/000/195/793/original/colorful-round-shapes-abstract-background-vector.jpg","width":1024,"height":768}}]</script>
 
 
 
